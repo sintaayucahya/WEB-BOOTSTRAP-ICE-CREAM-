@@ -1,0 +1,159 @@
+body {
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-bg {
+    background-color: rgb(114, 2, 15);
+}
+
+.main-color {
+    color: rgb(114, 2, 15) !important;
+    background-color: rgb(199, 119, 127) !important;
+}
+
+/* banner */
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/1200x/07/bb/cc/07bbcc807348acc12ee7d05293ff0b13.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* promo */
+
+.hovered-card {
+    transition: .3s;
+}
+
+.hovered-card:hover {
+    transform: scale(1.1);
+}
+
+.card-promo {
+    transition: .3s;
+    margin-bottom: 20px;
+}
+
+.card-promo:hover {
+    transform: scale(1.1);
+}
+
+/* pelayanan */
+
+.pelayanan {
+    background-color: #b696d0;
+}
+
+.pelayanan-content {
+    transition: .3s;
+}
+
+.pelayanan-content:hover {
+    transform: scale(1.1);
+}
+
+.pelayanan .icon-circle {
+    width: 90px;
+    height: 90px;
+    border: solid 2px;
+}
+
+/* menu favorit */
+
+.menu-favorit {
+    background-color: rgba(243, 243, 243);
+}
+
+.menu-favorit-content {
+    transition: .3s;
+}
+
+.menu-favorit-content:hover {
+    transform: scale(1.1);
+}
+.testimony {
+    background-color: #b696d0 !important;
+    background-size: cover;
+}
+
+.testimony-card {
+    background: rgb(199, 119, 127) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 16px;
+    padding: 28px;
+    transition: .3s;
+    height: 100%;
+}
+
+.testimony-card:hover {
+    transform: translateY(-6px);
+    background: rgba(255, 255, 255, 0.13);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.testimony-card .quote-icon {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.3);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.testimony-card h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.testimony-card .author {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 12px;
+}
+
+.testimony-card p {
+    font-size: 0.88rem;
+    color: rgba(10, 9, 9, 0.8);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.testimony-card .stars {
+    color: burlywood;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+footer {
+background-color: #b696d0;
+    color:aliceblue;
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: #ffffff;
+    transition: .3s;
+
+}
+
+.footer .social-icon:hover {
+    color: #f9e199;
+}
+
+.footer-main {
+    background-color: #ce6579; 
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.footer-main a:hover {
+    color: #FFC107 !important;
+}
+

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Saya</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand me-auto" href="#">Toko Sinta</a>
+      <ul class="navbar-nav">
+        <li class="nav-item me-5">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#">Produk</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#">Promo</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#"><i class="bi bi-cart"></i> Keranjang</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid banner align-items-center d-flex justify-content-center">
+    <div class="container">
+        <h1 class="text-light text-center display-5 mb-3">Selamat Datang</h1>
+        <h2 class="text-light text-center display-6 mb-4">Choose your favorite ice cream?</h2>
+        <div class="col-md-8 offset-md-2">
+            <div class="input-group input-group-lg mt-5">
+                <select class="form-select" id="inputGroupSelect04">
+                    <option selected>Pilih ice cream</option>
+                    <option value="1">Chocolate Ice Cream</option>
+                    <option value="2">Strawberry Ice Cream</option>
+                    <option value="3">Vanila Oreo Ice Cream</option>
+                    <option value="4">Matcha Ice Cream</option>
+                </select>
+                <button class="btn btn-lg btn-warning text-light" type="button">Telusuri</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="container">
+        <h2 class="text-center">Promo Spesial</h2>
+
+        <div class="row mt-5 justify-content-center">
+            <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                <div class="card">
+                    <img src="escokelat1.jpg" class="card-img-top" alt="Chocolate Ice Cream">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Ice Cream</h5>
+                        <p class="card-text">Chocolate ice cream with a smooth texture</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                <div class="card">
+                    <img src="esstrawberry2.jpg" class="card-img-top" alt="Strawberry ice cream">
+                    <div class="card-body">
+                        <h5 class="card-title">Strawberry ice cream</h5>
+                        <p class="card-text">A combination of fresh strawberries.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                <div class="card">
+                    <img src="esvanilaoreo1.jpg" class="card-img-top" alt="vanilla oreo ice cream">
+                    <div class="card-body">
+                        <h5 class="card-title">vanilla oreo ice cream</h5>
+                        <p class="card-text">Enjoy vanilla ice cream with your favorite Oreo.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <div class="text-center mt-4">
+            <button class="btn btn-warning btn-lg text-light">Lihat Semua Promo</button>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5 pelayanan">
+    <div class="container">
+        <h2 class="text-center text-light mb-5">Kami Melayani</h2>
+
+        <div class="row justify-content-center text-center text-light">
+            <div class="col-sm-6 col-lg-3 mb-4 pelayanan-content">
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="icon-circle rounded-circle d-flex align-items-center justify-content-center border border-light border-2">
+                        <i class="bi bi-ev-front-fill fs-3 text-light"></i>
+                    </div>
+                </div>
+                <h5 class="text-light">Delivery</h5>
+                <p class="text-light">Kami melayani pengantaran es krim ke berbagai area. Es krim dikemas rapi dan aman</p>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 mb-4 pelayanan-content">
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="icon-circle rounded-circle d-flex align-items-center justify-content-center border border-light border-2">
+                        <i class="bi bi-basket fs-3 text-light"></i>
+                    </div>
+                </div>
+                <h5 class="text-light">Take Away</h5>
+                <p class="text-light">Pesan es krim favorit Anda dan bawa pulang untuk dinikmati kapan saja.</p>
+            </div>
+    
+            <div class="col-sm-6 col-lg-3 mb-4 pelayanan-content">
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="icon-circle rounded-circle d-flex align-items-center justify-content-center border border-light border-2">
+                        <i class="bi bi-cup-straw fs-3 text-light"></i>
+                    </div>
+                </div>
+                <h5 class="text-light">Dine In</h5>
+                <p class="text-light">Nikmati es krim langsung di tempat dengan suasana yang nyaman dan menyenangkan.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5 menu-favorit">
+    <div class="container">
+        <h2 class="text-center mb-5">Paling Banyak Dibeli</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-6 col-lg-3 mb-4 menu-favorit-content">
+                <div class="card border-0 shadow-sm">
+                    <img src="escokelat1.jpg" class="card-img-top" alt="chocolate Ice Cream" style="height: 210px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold" style="color: #FFC107;">chocolate Ice Cream</h5>
+                        <p class="card-text text-muted small">chocolate ice cream with chocolate chunks on top</p>
+                        <p class="fw-bold" style="color: #FFC107;">Rp 30.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 mb-4 menu-favorit-content">
+                <div class="card border-0 shadow-sm">
+                    <img src="esstrawberry2.jpg" class="card-img-top" alt="Strawberry ice cream" style="height: 210px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold" style="color: #FFC107;">Strawberry ice cream</h5>
+                        <p class="card-text text-muted small">Strawberry ice cream with strawberry pieces on top.</p>
+                        <p class="fw-bold" style="color: #FFC107;">Rp 25.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 mb-4 menu-favorit-content">
+                <div class="card border-0 shadow-sm">
+                    <img src="esvanilaoreo1.jpg" class="card-img-top" alt="vanilla oreo ice cream" style="height: 210px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold" style="color: #FFC107;">vanilla oreo ice cream</h5>
+                        <p class="card-text text-muted small">soft vanilla ice cream mixed with Oreo biscuits</p>
+                        <p class="fw-bold" style="color: #FFC107;">Rp 25.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 mb-4 menu-favorit-content">
+                <div class="card border-0 shadow-sm">
+                    <img src="esmatcha2.jpg" class="card-img-top" alt="Matcha ice cream" style="height: 210px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold" style="color: #FFC107;">Matcha ice cream</h5>
+                        <p class="card-text text-muted small">a combination of sweet green tea with soft ice cream in every bite</p>
+                        <p class="fw-bold" style="color: #FFC107;">Rp 30.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5 testimony">
+  <div class="container">
+    <h2 class="text-center text-light mb-2">Apa Kata Customer</h2>
+    <p class="text-center mb-5" style="color: rgba(0, 0, 0, 0.6); font-size: 0.95rem;">Kepuasan pelanggan adalah prioritas kami</p>  
+    <div class="row justify-content-center">
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="testimony-card">
+                <div class="quote-icon"></div>
+                <h5>Pilihannya banyak</h5>
+                <div class="author">– Septia Fitri</div>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>Pilihannya banyak sekali sampai bingung mau pilih yang mana! Koleksinya sangat lengkap untuk segala kebutuhan.</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="testimony-card">
+                <div class="quote-icon"></div>
+                <h5>Banyak diskon</h5>
+                <div class="author">– Salsa Ayu</div>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>Belanja di sini hemat banget karena banyak diskon yang ditawarkan. Harga jadi jauh lebih terjangkau!</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="testimony-card">
+                <div class="quote-icon"></div>
+                <h5>Karyawannya ramah-ramah</h5>
+                <div class="author">— Satria Wijaya</div>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>Karyawannya ramah-ramah dan sangat membantu. Pelayanan yang sopan seperti ini bikin betah belanja lagi.</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="testimony-card">
+                <div class="quote-icon"></div>
+                <h5>Pelayanan super cepat</h5>
+                <div class="author">— Vanessha Putri</div>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>Pelayanan super cepat! Tidak perlu menunggu lama, semua permintaan langsung diproses dengan sigap.</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="testimony-card">
+                <div class="quote-icon"></div>
+                <h5>Pilihan warna sangat beragam</h5>
+                <div class="author">— Reisya Anggita</div>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+                <p>Suka sekali karena pilihan warna sangat beragam. Semua varian warna yang saya cari tersedia lengkap di sini.</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="testimony-card">
+                <div class="quote-icon"></div>
+                <h5>Prosesnya cepat dan tidak mengecewakan</h5>
+                <div class="author">— Alexander Baskara</div>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>Prosesnya cepat dan tidak mengecewakan sama sekali. Hasilnya sesuai ekspektasi dan sangat memuaskan!</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid py-5">
+  <div class="container">
+    <h2 class="text-center mb-2">Reservasi</h2>
+    <p class="text-center text-muted mb-5">Jangan sampai kehabisan stok. Reservasi sekarang !!</p>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="mb-3">
+            <label class="form-label">Nama</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">No. Kontak</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Jumlah Meja</label>
+            <input type="number" class="form-control">
+        </div>
+        <div class="d-grid">
+            <button class="btn btn-warning text-light">Reservasi</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid py-5 footer" style="background-color: #ce6579;">
+  <div class="container">
+    <h5 class="text-center text-light mb-3">Temui Kami</h5>
+    
+    <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+      <a href="https://facebook.com/username" target="_blank" class="social-icon">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://instagram.com/username" target="_blank" class="social-icon">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://twitter.com/username" target="_blank" class="social-icon">
+        <i class="bi bi-twitter-x"></i>
+      </a>
+      <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+        <i class="bi bi-youtube"></i>
+      </a>
+    </div>
+
+    <h5 class="text-center text-light mb-1">Subscribe</h5>
+    <p class="text-center text-light mb-3">Untuk informasi tentang promo</p>
+    
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="input-group">
+          <input type="email" class="form-control" placeholder="Ketikkan Email">
+          <button class="btn btn-warning text-light">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <footer class="container-fluid py-5 footer">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold">Toko Sinta</h5>
+                    <p>
+                        Toko Sinta adalah tempat terbaik untuk membeli berbagai macam es krim berkualitas tinggi. Kami menyediakan berbagai rasa dan varian es krim yang pasti akan memuaskan selera Anda!
+                    </p>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold">Navigation</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Album</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Merch</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Contact</h5>
+                    <p>Email : tokosinta@email.com</p>
+                    <p>Telp : 0875-3782-3293</p>
+                    <p class="mb-0">&copy; 2026 Stray Kids Zone. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
