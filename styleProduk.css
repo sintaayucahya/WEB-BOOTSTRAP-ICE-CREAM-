@@ -1,0 +1,105 @@
+body {
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-bg {
+    background-color: rgb(114, 2, 15);
+}
+
+.main-color {
+    color: rgb(114, 2, 15) !important;
+    background-color: rgb(199, 119, 127) !important;
+}
+
+/* banner */
+
+.produk-banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/1200x/93/60/d3/9360d3d83a6f6a1a6f1fc6d1eff86a07.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main-navbar {
+  background-color: rgb(123, 49, 102); 
+}
+
+.navbar-brand,
+.nav-link {
+  color: rgb(255, 255, 255) ;
+}
+
+
+.card {
+    transition: transform 0.3s ease; 
+    border: none;
+    box-shadow: 0 4px 8px rgba(206, 114, 114, 0.1); 
+}
+
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover; 
+}
+
+.card-title {
+    color: rgb(230, 255, 90);
+    
+} 
+
+.btn-primary {
+    background-color: transparent; 
+    border: 1px solid #FFC107; 
+    color: #FFC107; 
+    
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    
+    padding: 5px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #b696d0;
+    color: #ffffff; 
+}
+
+.footer {
+    background-color: #b696d0;
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: #ffffff;
+    transition: .3s;
+
+}
+
+.footer .social-icon:hover {
+    color: #FFC107;
+}
+
+.footer-main {
+    background-color: #ce6579; 
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.footer-main a:hover {
+    color: #FFC107 !important;
+}
