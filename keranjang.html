@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Saya</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styleKeranjang.css">
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto" href="#">Toko Sinta</a>
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="promo.html">Promo</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="bi bi-cart"></i> Keranjang
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center my-5">Keranjang Belanja</h2>
+            
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Menu</th>
+                            <th>Order</th>
+                            <th>Price</th>
+                            <th>Amount</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="vertical-align: middle">
+                            <td>
+                                <a href="esBlueberry1.jpg" data-lightbox="blueberry-ice-cream" data-title="Blueberry Ice Cream">
+                                    <img src="esBlueberry1.jpg" width="150px" alt="Blueberry Ice Cream" class="img-thumbnail d-sm-block d-none" />
+                                    <label class="d-block d-sm-none text-primary fw-bold">Blueberry Ice Cream</label>
+                                </a>
+                            </td>
+                            <td>Blueberry Ice Cream</td>
+                            <td>Rp 25.000</td>
+                            <td>2</td>
+                            <td>Rp 50.000</td>
+                        </tr>
+                        <tr class="fw-bold">
+                            <th colspan="4" class="text-end">final Total:</th>
+                            <th>Rp 50.000</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="text-end mt-3">
+                <button class="btn btn-warning btn-lg text-light px-5 shadow-sm">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+            <footer class="container-fluid py-5 footer">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5 class="fw-bold">Toko Sinta</h5>
+                <p>
+                    Toko Sinta adalah tempat terbaik untuk membeli berbagai macam es krim berkualitas tinggi. Kami menyediakan berbagai rasa dan varian es krim yang pasti akan memuaskan selera Anda!
+                </p>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5 class="fw-bold">Navigation</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                    <li><a href="PRODUK.html" class="text-light text-decoration-none">Produk</a></li>
+                    <li><a href="promo.html" class="text-light text-decoration-none">Promo</a></li>
+                    <li><a href="keranjang.html" class="text-light text-decoration-none">Keranjang</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h5 class="fw-bold">Contact</h5>
+                <p>Email : tokosinta@email.com</p>
+                <p>Telp : 0875-3782-3293</p>
+                <p class="mb-0">&copy; 2026 Toko Sinta. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+     <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
